@@ -1,0 +1,13 @@
+id 50801
+opcode QUERY
+rcode NOERROR
+flags QR RD RA
+;QUESTION
+lifequality.org.in. IN NS
+;ANSWER
+lifequality.org.in. 21600 IN NS domain2sell.earth.orderbox-dns.com.
+lifequality.org.in. 21600 IN NS domain2sell.mars.orderbox-dns.com.
+lifequality.org.in. 21600 IN NS domain2sell.venus.orderbox-dns.com.
+lifequality.org.in. 21600 IN NS domain2sell.mercury.orderbox-dns.com.
+;AUTHORITY
+;ADDITIONAL
