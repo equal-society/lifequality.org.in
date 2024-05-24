@@ -1,0 +1,73 @@
+
+<html>
+  <head>
+  <meta name="viewport" content="width=device-width, initial-scale=1 viewport-fit=cover, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <style>
+      body {
+        background-color: white;
+        margin: 0 auto;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        flex-direction: column;
+        height: 100vh;
+      }
+      #bp-web-widget-container {
+        max-height: 90%;
+        width: 481px;
+        margin: auto;
+        flex-grow: 1;
+      }
+      #bp-web-widget-container div {
+        height: 100%;
+      }
+      .webchatIframe {
+        position: relative !important;
+      }
+    </style>
+    <title>We Healthfy</title>
+  </head>
+  <body>
+
+  <script src="https://cdn.botpress.cloud/webchat/v1/inject.js"></script>
+<script>
+  window.botpressWebChat.init({
+      "composerPlaceholder": "Chat with bot",
+      "botConversationDescription": "This is our EQ Virtual Agent",
+      "botId": "e5f8d70d-bd90-416e-be8d-9f06143a2983",
+      "hostUrl": "https://cdn.botpress.cloud/webchat/v1",
+      "messagingUrl": "https://messaging.botpress.cloud",
+      "clientId": "e5f8d70d-bd90-416e-be8d-9f06143a2983",
+      "webhookId": "fea60a65-6a38-43f1-a2fc-4ba821b1460f",
+      "lazySocket": true,
+      "themeName": "prism",
+      "botName": "We Healthfy",
+      "avatarUrl": "https://raw.githubusercontent.com/equal-society/lifequality.org.in/main/c10014f9f6900a539f02525c3652aef7.jpg",
+      "phoneNumber": "+91 9013103676",
+      "termsConditions": "https://www.lifequality.org.in/",
+      "emailAddress": "equal.society@gmail.com",
+      "website": "https://www.lifequality.org.in/contact",
+      "stylesheet": "https://webchat-styler-css.botpress.app/prod/56b28812-c863-4a5d-8315-88f1698f6071/v66030/style.css",
+      "frontendVersion": "v1",
+      "useSessionStorage": true,
+      "showBotInfoPage": true,
+      "enableConversationDeletion": true,
+      "showPoweredBy": true,
+      "theme": "prism",
+      "themeColor": "#2563eb",
+      "allowedOrigins": [],
+      "hideWidget": true,
+      "disableAnimations": true,
+      "closeOnEscape": false,
+      "showConversationsButton": false,
+      "enableTranscriptDownload": false,
+      "className": "webchatIframe",
+      "containerWidth": "100%25",
+      "layoutWidth": "100%25",
+      "showCloseButton": false
+  });
+window.botpressWebChat.onEvent(function () { window.botpressWebChat.sendEvent({ type: 'show' }) }, ['LIFECYCLE.LOADED']);
+</script>
+
+  </body>
+</html>
